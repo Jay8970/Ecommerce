@@ -22,6 +22,7 @@
         <EditText
             android:id="@+id/nameEt"
             android:hint="Full Name"
+            android:inputType="text"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -38,6 +39,7 @@
             android:inputType="textPassword"
             android:id="@+id/password1"
             android:hint="Password"
+
             android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
@@ -46,6 +48,7 @@
             android:layout_margin="10dp"
             android:id="@+id/password2"
             android:hint="Retype-Password"
+            android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
     </LinearLayout>
